@@ -66,13 +66,13 @@ function PersonalTable () {
             <tr>
               <th style={{ width: '20%' }}>ID</th>
               <th style={{ width: '20%' }} >Фамилия</th>
-              <th style={{ width: '20%' }} onClick={() => setSort({ field: 'name', type: 'string' })}>
+              <th style={{ width: '20%', cursor: 'pointer' }} onClick={() => setSort({ field: 'name', type: 'string' })}>
                             Имя
                 <Badge className="ml-1" variant="info">sort</Badge>
                 {sort.field === 'name' && !isReversed && <FaSortAlphaDown className="float-right mt-1"/>}
                 {sort.field === 'name' && isReversed && <FaSortAlphaUp className="float-right mt-1"/>}
               </th>
-              <th style={{ width: '20%' }} onClick={() => setSort({ field: 'position', type: 'number' })}>
+              <th style={{ width: '20%', cursor: 'pointer' }} onClick={() => setSort({ field: 'position', type: 'number' })}>
                             Должность
                 <Badge className="ml-1" variant="info">sort</Badge>
                 {sort.field === 'position' && !isReversed && <FaSortAmountDown className="float-right mt-1"/>}
