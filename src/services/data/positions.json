@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id" : 100,
+      "name" : "Junior"
+    },
+    {
+      "id" : 200,
+      "name" : "Middle"
+    },
+    {
+      "id" : 300,
+      "name" : "Senior"
+    }
+  ]
+}

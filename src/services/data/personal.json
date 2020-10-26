@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id" : 1,
+      "name" : "John",
+      "secondName" : "Smith",
+      "position" : 100
+    },
+    {
+      "id" : 2,
+      "name" : "Alice",
+      "secondName" : "Owner",
+      "position" : 200
+    },
+    {
+      "id" : 3,
+      "name" : "Liam",
+      "secondName" : "Williams",
+      "position" : 100
+    },
+    {
+      "id" : 4,
+      "name" : "Oliver",
+      "secondName" : "Jones",
+      "position" : 200
+    },
+    {
+      "id" : 5,
+      "name" : "Benjamin",
+      "secondName" : "Miller",
+      "position" : 300
+    },
+    {
+      "id" : 6,
+      "name" : "Александр",
+      "secondName" : "Miller",
+      "position" : 200
+    },
+    {
+      "id" : 7,
+      "name" : "Борис",
+      "secondName" : "Jones",
+      "position" : 100
+    }
+  ]
+}
